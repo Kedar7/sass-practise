@@ -1,0 +1,33 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: grey;
+}
+
+header button {
+  background: goldenrod;
+}
+
+header button:hover {
+  background: lightgoldenrodyellow;
+}
+
+header button::after {
+  content: " after text";
+  color: darkolivegreen;
+}
+
+header button::before {
+  content: "before text ";
+  color: darkolivegreen;
+}
+
+.contact button {
+  background: goldenrod;
+}
+/*# sourceMappingURL=nesting.css.map */

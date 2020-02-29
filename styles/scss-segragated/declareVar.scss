@@ -1,0 +1,17 @@
+$primaryBtn : goldenrod;
+$textColor: grey; // Declare once, it will reflect everywhere. Don't need to change again for each style
+
+header {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+
+}
+header button {
+    background: $primaryBtn;
+}
+
+.contact button {
+    background: $primaryBtn;
+}

@@ -1,0 +1,28 @@
+$primaryBtn : goldenrod;
+$textColor: grey; // Declare once, it will reflect everywhere. Don't need to change again for each style
+
+header {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    button { //Nesting button since it is inside header, no need to declare it outside
+        background: $primaryBtn;
+        &:hover { //hover
+            background: lightgoldenrodyellow
+        }
+        &::after { // after button text
+            content: " after text";
+            color: darkolivegreen;
+        }
+        &::before { // before button text
+            content : "before text ";
+            color: darkolivegreen;
+        }
+    }
+    
+}
+
+.contact button {
+    background: $primaryBtn;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,SAAS;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,KAAK,EANG,IAAI;CAQf;;AACD,AAAA,MAAM,CAAC,MAAM,CAAC;EACV,UAAU,EAXA,SAAS;CAYtB;;AAED,AAAA,QAAQ,CAAC,MAAM,CAAC;EACZ,UAAU,EAfA,SAAS;CAgBtB",
+    "sources": [
+        "declareVar.scss"
+    ],
+    "names": [],
+    "file": "declareVar.css"
+}

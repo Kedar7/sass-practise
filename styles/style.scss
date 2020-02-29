@@ -1,0 +1,14 @@
+@import 'scss/variables'; // Separating code into multiple files 
+@import 'scss/header'; 
+@import 'scss/footer';
+
+.contact {
+    @include flexCenter(row,lightgreen); // include example
+    width: 100% - 20%;
+
+}
+.footer {
+    @extend .footer; //extend example
+    background: lightgoldenrodyellow; //overriding background from .footer 
+    
+}

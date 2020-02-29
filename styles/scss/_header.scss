@@ -1,0 +1,27 @@
+@mixin flexCenter($direction,$background) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; //fullscreen
+    flex-direction: $direction;
+    background: $background;
+}
+header {
+    @include flexCenter(column,lightblue);
+    color: $textColor;
+    button { //Nesting button since it is inside header, no need to declare it outside
+        background: $primaryBtn;
+        &:hover { //hover
+            background: lightgoldenrodyellow
+        }
+        &::after { // after button text
+            content: " after text";
+            color: darkolivegreen;
+        }
+        &::before { // before button text
+            content : "before text ";
+            color: darkolivegreen;
+        }
+    }
+    
+}
